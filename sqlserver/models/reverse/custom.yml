@@ -1,0 +1,10 @@
+kind: reverse
+name: testdb
+source:
+  database: mysql
+  conn_str: 'lambdacal:yskj2407@tcp(10.0.1.58:3306)/wzz_db?parseTime=true'
+targets:
+- type: codes
+  multiple_files: true
+  language: golang
+  output_dir: ../

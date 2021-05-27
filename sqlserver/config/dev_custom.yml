@@ -1,0 +1,5 @@
+mySql:
+  dns: "root:123456@tcp(10.0.0.0:3306)/wzz_db?charset=utf8"
+
+sqlServer:
+  dns: "sqlserver://sa:123456@localhost:1433?database=wzz"
