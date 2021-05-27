@@ -7,4 +7,4 @@ sudo git clone https://github.com/wzz1234wzz/items.git
 git add .
 git commit -m "xxxx"
 git branch -M main 
-git push -u origin main  需要填用户名与密码
+sudo git push -u origin main  需要填用户名与密码
